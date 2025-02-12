@@ -60,7 +60,12 @@ Before testing the project, follow these steps below
 
    2. Start the frontend of the project  `cd NoteApp/frontend`  `npm run dev`
 
+<<<<<<< Updated upstream
    3. Start the backend of the project in test mode  `cd NoteApp/backend`  `npm run start:test`
+=======
+   3. Start the backend of the project in test mode with this command
+        `cd NoteApp/backend` and `npm run start:test`
+>>>>>>> Stashed changes
 
 
 1. To run all tests, run this command `npm test`
