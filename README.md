@@ -2,7 +2,7 @@
 
 ---
 
-This repository provides a step-by-step guide on how to set up Playwright for testing "note app" project.
+This repository provides a step-by-step guide on how to set up Playwright for testing your project.
 
 ---
 
@@ -54,15 +54,13 @@ This repository provides a step-by-step guide on how to set up Playwright for te
 
 ## Usage
 
-Before testing the project, follow these steps below
-   1. Clone only the `testwithplaywright` branch
-        `git clone --branch testwithplaywright --single-branch https://github.com/kcw00/NoteApp.git`
+### To test my NoteApp project
+Before testing the project, follow these steps below  
+   1. Clone only the `testwithplaywright` branch  `git clone --branch testwithplaywright --single-branch https://github.com/kcw00/NoteApp.git`
 
-   2. Start the frontend of the project
-        `cd NoteApp/frontend` and `npm run dev`
+   2. Start the frontend of the project  `cd NoteApp/frontend`  `npm run dev`
 
-   3. Start the backend of the project in test mode
-        `cd NoteApp/backend` and `npm run start:test`
+   3. Start the backend of the project in test mode  `cd NoteApp/backend`  `npm run start:test`
 
 
 1. To run all tests, run this command `npm test`
