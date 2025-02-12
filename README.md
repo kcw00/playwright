@@ -13,12 +13,12 @@ This repository provides a step-by-step guide on how to set up Playwright for te
 
 2. Define npm script for running test and test reports in package.json
 
-```javascript
-"test": "playwright test",
-"test:report": "playwright show-report"
-```
+    ```javascript
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+    ```
 
-add the values above into `"scripts"` section
+    add the values above into `"scripts"` section
 
 ---
 
@@ -26,11 +26,13 @@ add the values above into `"scripts"` section
 
 1. Add an npm script for the backend of the project. This will enable the backend to be started in test mode
 
-In the backend's package.json,
+    In the backend's package.json,
 
-`"start:test": "NODE_ENV=test node index.js"`
+    ```javascript
+    "start:test": "NODE_ENV=test node index.js"
+    ```
 
-add the value above into `"scripts"` section
+    add the value above into `"scripts"` section
 
 2. Change some default settings in playwright.config.js
      ```javascript
@@ -45,6 +47,7 @@ add the value above into `"scripts"` section
                 /* Base URL to use in actions like `await page.goto('')`. */
                 baseURL: 'http://localhost:5173', /* -> the frontend address */
             }
+            ...
         })
      ```
 ---
